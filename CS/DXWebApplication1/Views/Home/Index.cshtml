@@ -1,0 +1,48 @@
+﻿TextBox with Native="true" and CssClass="form-control" <b>(Bootstrap Design)</b>
+@Html.DevExpress().TextBox(settings => {
+    settings.Name = "TextBox1";
+    settings.ControlStyle.CssClass = "form-control";
+    settings.Properties.Native = true;
+    settings.Width = Unit.Pixel(200);
+}).GetHtml()
+<br />
+Memo with Native="true" and CssClass="form-control" <b>(Bootstrap Design)</b>
+@Html.DevExpress().Memo(settings => {
+    settings.Name = "Memo1";
+    settings.ControlStyle.CssClass = "form-control";
+    settings.Properties.Native = true;
+    settings.Height = Unit.Pixel(100);
+    settings.Width = Unit.Pixel(200);
+}).GetHtml()
+<br />
+Button with Native="true" and CssClass="btn btn-primary" <b>(Bootstrap Design)</b>
+<br />
+@Html.DevExpress().Button(settings => {
+    settings.Name = "Button1";
+    settings.ControlStyle.CssClass = "btn btn-primary";
+    settings.Styles.Native = true;
+    settings.UseSubmitBehavior = true;
+    settings.Text = "Submit";
+}).GetHtml()
+<br />
+<br />
+TextBox with Theme="Moderno" <b>(DevExpress Design)</b>
+@Html.DevExpress().TextBox(settings => {
+    settings.Name = "TextBox2";
+    settings.Width = Unit.Pixel(200);
+}).GetHtml()
+<br />
+Memo with Theme="Moderno" <b>(DevExpress Design)</b>
+@Html.DevExpress().Memo(settings => {
+    settings.Name = "Memo2";
+    settings.Height = Unit.Pixel(100);
+    settings.Width = Unit.Pixel(200);
+}).GetHtml()
+<br />
+Button with Theme="Moderno" <b>(DevExpress Design)</b>
+<br />
+@Html.DevExpress().Button(settings => {
+    settings.Name = "Button2";
+    settings.UseSubmitBehavior = true;
+    settings.Text = "Submit";
+}).GetHtml()

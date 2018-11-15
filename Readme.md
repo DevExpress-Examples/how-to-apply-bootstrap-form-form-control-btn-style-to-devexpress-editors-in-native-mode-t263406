@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/DXWebApplication1/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/DXWebApplication1/Controllers/HomeController.vb))
+* **[Index.cshtml](./CS/DXWebApplication1/Views/Home/Index.cshtml)**
+* [_Layout.cshtml](./CS/DXWebApplication1/Views/Shared/_Layout.cshtml)
+<!-- default file list end -->
 # How to apply Bootstrap Form (form-control, btn) style to DevExpress editors in Native mode
 
 
